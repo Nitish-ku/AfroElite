@@ -229,9 +229,6 @@ const Writers = () => {
                 </div>
                 <h3 className="text-lg font-semibold mb-2">{step.title}</h3>
                 <p className="text-muted-foreground text-sm">{step.description}</p>
-                {index < process.length - 1 && (
-                  <div className="hidden md:block absolute top-6 left-1/2 w-full h-0.5 bg-border transform translate-x-6"></div>
-                )}
               </div>
             ))}
           </div>
